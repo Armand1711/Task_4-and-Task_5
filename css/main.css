@@ -1,0 +1,204 @@
+html, body, h1{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: grey;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 25px;
+}
+
+.logo h3{
+    float: left;
+    color: white;
+}
+
+.nav-con{
+    width: 520px;
+    height: 60px;
+    float: right;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav li{
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 30px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 5px;
+}
+
+
+
+.active{
+    background-color: #2b2b2b;
+    color: white;
+}
+
+header{
+    width: 100%;
+    height: 600px;
+    background-color: lightgray;
+    padding-left: 10%;
+    padding-top: 100px;
+    padding-right: 10%;
+    background-image: url(../assets/maxresdefault.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+.overlay{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 0.6);
+    padding-left: 10%;
+   
+    opacity: 0.4;
+}
+
+header h1{
+    font-size: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.watch-button{
+    width: 200px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    padding-top: 5px;
+    border-radius: 5px;
+    text-align: center;
+    float: left;
+    margin: 0 auto;
+}
+
+.watch-button:hover{
+    color: black;
+    background-color: gray;
+}
+
+header ul{
+    list-style: none;
+}
+
+header li{
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 30px;
+    background-color: lightgrey;
+    border-color: black;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 5px; 
+}
+
+div ul{
+    list-style: none;
+}
+
+.circle{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin: 0 auto;
+    background-image: url(../assets/hands.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.half-text p{
+    margin-bottom: 25px;
+}
+
+.half-text{
+    padding-right: 45px;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #2b2b2b;
+    color: white;
+    text-align: center;
+}
+
+.find-button{
+    width: 150px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    padding-top: 5px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.find-button:hover{
+    color: black;
+    background-color: gray;
+}
+
+.heading-mid{
+    width: 100%;
+    height: 75px;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.txt{
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+}
+
+#eleven{
+    background-image: url(../assets/old_eleven.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#mike{
+    background-image: url(../assets/old_mike.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#dustin{
+    background-image: url(../assets/old_dustin.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#eddie{
+    background-image: url(../assets/zombie.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.pfp{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: lightgray;
+    margin-bottom: 10px;
+    margin: 0 auto;
+}
